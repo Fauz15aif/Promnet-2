@@ -4,30 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio Fauzi</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>About Me</h1>
-    <nav>
-      <a href="index.html">Home</a> | <a href="about.html">About</a> |
-      <a href="project.html">Project</a> | <a href="contact.html">Contact</a> |
+    <nav class="opening">
+      <h1 class="Judul-home">About Me</h1>
+    </nav>
+    <nav class="link-navbar">
+      <a href="index.html">Home</a> <a href="about.html">About</a>
+      <a href="project.html">Project</a> <a href="contact.html">Contact</a>
       <a href="activity.html">Activity</a>
     </nav>
     <hr />
-    <h2>Profile Singkat</h2>
-    <p>
-      Nama saya <strong> Muhammad Fauzi Saifuddin. </strong> Saya adalah
-      mahasiswa Pendidikan Sistem dan Teknologi Informasi yang memiliki
-      ketertarikan pada bidang teknologi dan pemrograman. <br />Saat ini saya
-      sedang mengembangkan kemampuan dalam membuat website dan mempelajari
-      berbagai dasar pemrograman.
-    </p>
-    <p>
-      Saya tertarik dengan dunia teknologi karena teknologi terus berkembang dan
-      memberikan banyak peluang.
-    </p>
-    <h2>Data Diri</h2>
+    <h2 class="container-judul">Profile Singkat</h2>
+    <div class="isi-about">
+      <p>
+        Nama saya <strong> Muhammad Fauzi Saifuddin. </strong> Saya adalah
+        mahasiswa Pendidikan Sistem dan Teknologi Informasi yang memiliki
+        ketertarikanpada bidang teknologi dan pemrograman. <br />Saat ini saya
+        sedang mengembangkan kemampuan dalam membuat website dan mempelajari
+        berbagai dasar pemrograman.
+      </p>
+
+      <p>
+        Saya tertarik dengan dunia teknologi karena teknologi terus berkembang
+        dan memberikan banyak peluang.
+      </p>
+    </div>
+    <div>
+    <h2 class="container-judul">Data Diri</h2>
     <br />
-    <table border="1" cellpadding="9" style="background-color: aqua">
+    <table class="data-diri" border="1" cellpadding="9">
       <thead>
         <tr>
           <th>Data</th>
@@ -89,8 +96,9 @@
         </tr>
       </tbody>
     </table>
-    <h2>Hobi</h2>
-    <ul>
+    </div>
+    <h2 class="container-judul">Hobi</h2>
+    <ul class="hobi-list">
       <li>Membaca ALquran</li>
       <li>Membaca buku</li>
       <li>Belajar Teknologi</li>
@@ -98,14 +106,15 @@
       <li>Olahraga</li>
     </ul>
 
-    <h2>Riwayat Pendidikan</h2>
-    <ol>
+    <h2 class="container-judul">Riwayat Pendidikan</h2>
+    <ol class="pendidikan-list">
       <li>MI Salafiyah - 2018</li>
       <li>Mts Salafiyah - 2021</li>
       <li>MAS Al- Muthohhar - 2025</li>
       <li>Universitas Pendidikan Indonesia - Sekarang</li>
     </ol>
-    <hr />
-    <p>© 2026 MFS. Porto</p>
+    <footer class="footer">
+      <p>© 2026 MFS. Porto</p>
+    </footer>
   </body>
 </html>
