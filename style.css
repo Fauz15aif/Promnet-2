@@ -2,7 +2,8 @@
 
 body{
     margin: 0;
-    padding: 0;
+    padding-top: 125px;
+    overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
     background:linear-gradient(to bottom, #9a9a9a,#ffffff) ;
     color: #222;
@@ -16,6 +17,8 @@ body{
     width: 100%;
     z-index: 1000;
 }
+
+
 .opening{
     background : linear-gradient(to right, #1f3c88, #4f6fdc);
     color: white;
@@ -25,7 +28,7 @@ body{
 
 .Judul-home{
     margin: 0;
-    font-size: 36px;
+    font-size: clamp(28px, 5vw, 36px);
     letter-spacing: 1px;
 }
 
@@ -33,23 +36,27 @@ body{
 
 .link-navbar{
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding: 15px;
+    gap: 5px;
+    padding: 8px 5px;
     background-color: rgb(255, 252, 252);
     border-bottom: 1px solid #dce3ee;
     box-shadow: 4px 3px 17px -8px rgba(0, 0, 0, 1.00);
-    border-radius: 17px;
 
 }
 
 .link-navbar a{
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+    margin: 0;
     background:#ffffff;
     text-decoration: none;
     font-family: 'Inter', 'Plus Jakarta Sans';
     color: black;
-    padding:10px 19px;
+    padding:10px 5px;
     text-align:center;
     box-shadow: 4px 3px 17px -8px rgba(0, 0, 0, 1.00);
     border-radius: 17px;
@@ -350,7 +357,7 @@ body{
 }
 
 .foto-project {
-     display: block;
+    display: block;
     width: 250px;
     height: 250px;
     margin: 25px auto;
